@@ -12,6 +12,10 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  {
+  "homepage": "https://karthikhruth11-hash.github.io/react-bsc/program-3a-counter",
+  ...
+}
   "scripts": {
     "start": "set PORT=3000 && react-scripts start",
     "build": "react-scripts build",
