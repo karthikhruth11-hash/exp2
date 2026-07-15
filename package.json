@@ -1,16 +1,10 @@
 {
-  "name": "exp3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "react-bsc",
+  "private": true,
   "scripts": {
-    "start-all": "concurrently \"npm start --prefix program-3a-counter\" \"npm start --prefix program-3b-api-fetch\" \"npm start --prefix program-3c-props\" \"npm start --prefix program-3d-froms\" \"npm start --prefix program-3e-map-rendering\""
+    "build": "npm --prefix program-3a-counter run build && npm --prefix program-3b-api-fetch run build && npm --prefix program-3c-props run build && npm --prefix program-3d-froms run build && npm --prefix program-3e-map-rendering run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "concurrently": "^10.0.3"
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
