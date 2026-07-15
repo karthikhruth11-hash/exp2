@@ -14,7 +14,6 @@
   },
   {
   "homepage": "https://karthikhruth11-hash.github.io/react-bsc/program-3a-counter",
-  ...
 }
   "scripts": {
     "start": "set PORT=3000 && react-scripts start",
